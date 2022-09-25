@@ -44,3 +44,1685 @@ full_key: model.net
 [2022-09-23 19:34:48,939][src.utils.utils][INFO] - Closing loggers...
 [2022-09-23 19:34:48,947][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-23_19-31-00
 [2022-09-23 19:34:48,947][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-23 19:54:49,082][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-23 19:54:49,122][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-23 19:54:49,391][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-23 19:54:49,397][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-23 19:54:49,407][__main__][INFO] - Instantiating callbacks...
+[2022-09-23 19:54:49,409][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-23 19:54:49,414][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-23 19:54:49,416][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-23 19:54:49,418][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-23 19:54:49,420][__main__][INFO] - Instantiating loggers...
+[2022-09-23 19:54:49,422][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-23 19:54:49,479][__main__][INFO] - Starting training!
+[2022-09-23 19:58:53,828][__main__][INFO] - Starting testing!
+[2022-09-23 19:58:58,350][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-23_19-54-48\checkpoints\epoch_009.ckpt
+[2022-09-23 19:58:58,354][src.utils.utils][INFO] - Closing loggers...
+[2022-09-23 19:58:58,358][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-23_19-54-48
+[2022-09-23 19:58:58,360][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-23 20:25:57,798][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-23 20:25:57,820][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-23 20:25:58,123][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-23 20:25:58,133][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-23 20:25:58,148][__main__][INFO] - Instantiating callbacks...
+[2022-09-23 20:25:58,150][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-23 20:25:58,154][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-23 20:25:58,157][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-23 20:25:58,159][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-23 20:25:58,162][__main__][INFO] - Instantiating loggers...
+[2022-09-23 20:25:58,163][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-23 20:25:58,201][__main__][INFO] - Starting training!
+[2022-09-23 20:29:39,911][__main__][INFO] - Starting testing!
+[2022-09-23 20:29:44,543][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-23_20-25-57\checkpoints\epoch_009.ckpt
+[2022-09-23 20:29:44,546][src.utils.utils][INFO] - Closing loggers...
+[2022-09-23 20:29:44,549][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-23_20-25-57
+[2022-09-23 20:29:44,551][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-23 21:01:43,010][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-23 21:01:43,055][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-23 21:01:43,058][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-23 21:01:43,344][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-23 21:01:43,351][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-23 21:01:43,361][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 21, in __init__
+    nn.Linear(channels * width * height, hidden_size),
+NameError: name 'channels' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 72, in train
+    model: LightningModule = hydra.utils.instantiate(cfg.model)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 334, in instantiate_node
+    value = instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'src.models.components.simple_dense_net.SimpleDenseNet':
+NameError("name 'channels' is not defined")
+full_key: model.net
+[2022-09-23 21:01:43,371][src.utils.utils][INFO] - Closing loggers...
+[2022-09-23 21:02:51,454][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-23 21:02:51,469][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-23 21:02:51,470][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-23 21:02:51,755][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-23 21:02:51,761][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-23 21:02:51,776][__main__][INFO] - Instantiating callbacks...
+[2022-09-23 21:02:51,778][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-23 21:02:51,783][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-23 21:02:51,786][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-23 21:02:51,788][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-23 21:02:51,790][__main__][INFO] - Instantiating loggers...
+[2022-09-23 21:02:51,791][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-23 21:02:51,793][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-23 21:02:51,854][__main__][INFO] - Starting training!
+[2022-09-23 21:02:54,728][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 36, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x3072 and 256x64)
+[2022-09-23 21:02:54,750][src.utils.utils][INFO] - Closing loggers...
+[2022-09-23 21:07:18,158][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-23 21:07:18,195][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-23 21:07:18,198][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-23 21:07:18,472][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-23 21:07:18,479][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-23 21:07:18,494][__main__][INFO] - Instantiating callbacks...
+[2022-09-23 21:07:18,495][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-23 21:07:18,501][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-23 21:07:18,505][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-23 21:07:18,507][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-23 21:07:18,509][__main__][INFO] - Instantiating loggers...
+[2022-09-23 21:07:18,512][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-23 21:07:18,513][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-23 21:07:18,557][__main__][INFO] - Starting training!
+[2022-09-23 21:07:21,387][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 36, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x3072 and 256x64)
+[2022-09-23 21:07:21,437][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:20:01,019][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:20:01,048][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:20:01,064][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:20:01,600][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:20:01,615][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:20:01,655][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:20:01,663][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:20:01,671][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:20:01,671][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:20:01,679][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:20:01,679][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:20:01,687][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:20:01,687][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:20:01,760][__main__][INFO] - Starting training!
+[2022-09-24 16:20:05,755][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 36, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x3072 and 256x64)
+[2022-09-24 16:20:05,796][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:21:08,179][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:21:08,208][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:21:08,216][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:21:08,718][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:21:08,734][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:21:08,750][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:21:08,750][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:21:08,766][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:21:08,774][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:21:08,774][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:21:08,774][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:21:08,782][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:21:08,782][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:21:08,871][__main__][INFO] - Starting training!
+[2022-09-24 16:21:12,659][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 36, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x3072 and 256x64)
+[2022-09-24 16:21:12,691][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:21:36,283][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:21:36,311][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:21:36,311][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:21:36,736][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:21:36,752][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:21:36,776][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:21:36,776][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:21:36,784][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:21:36,792][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:21:36,800][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:21:36,800][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:21:36,808][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:21:36,808][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:21:36,896][__main__][INFO] - Starting training!
+[2022-09-24 16:21:40,447][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 37, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x3072 and 784x256)
+[2022-09-24 16:21:40,489][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:22:25,324][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:22:25,348][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:22:25,356][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:22:25,835][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:22:25,843][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:22:25,868][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:22:25,868][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:22:25,884][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:22:25,884][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:22:25,892][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:22:25,892][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:22:25,900][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:22:25,900][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:22:25,966][__main__][INFO] - Starting training!
+[2022-09-24 16:22:29,429][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 37, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x256 and 64x128)
+[2022-09-24 16:22:29,450][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:30:47,677][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:30:47,704][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:30:47,704][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:30:48,230][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:30:48,246][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:30:48,262][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:30:48,270][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:30:48,278][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:30:48,286][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:30:48,294][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:30:48,294][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:30:48,302][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:30:48,310][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:30:48,379][__main__][INFO] - Starting training!
+[2022-09-24 16:30:52,184][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 37, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x3072 and 784x256)
+[2022-09-24 16:30:52,223][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:40:29,184][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:40:29,228][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:40:29,228][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:40:29,693][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:40:29,701][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:40:29,731][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:40:29,739][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:40:29,747][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:40:29,747][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:40:29,755][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:40:29,755][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:40:29,755][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:40:29,763][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:40:29,828][__main__][INFO] - Starting training!
+[2022-09-24 16:40:33,514][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 38, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x3072 and 784x256)
+[2022-09-24 16:40:33,551][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:43:15,165][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:43:15,201][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:43:15,201][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:43:15,688][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:43:15,704][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:43:15,720][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:43:15,720][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:43:15,728][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:43:15,736][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:43:15,744][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:43:15,744][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:43:15,744][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:43:15,744][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:43:15,832][__main__][INFO] - Starting training!
+[2022-09-24 16:43:19,556][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 98, in train
+    trainer.fit(model=model, datamodule=datamodule, ckpt_path=cfg.get("ckpt_path"))
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 696, in fit
+    self._call_and_handle_interrupt(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 650, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 737, in _fit_impl
+    results = self._run(model, ckpt_path=self.ckpt_path)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1168, in _run
+    results = self._run_stage()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1254, in _run_stage
+    return self._run_train()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1276, in _run_train
+    self._run_sanity_check()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1345, in _run_sanity_check
+    val_loop.run()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\dataloader\evaluation_loop.py", line 155, in advance
+    dl_outputs = self.epoch_loop.run(self._data_fetcher, dl_max_batches, kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\loop.py", line 200, in run
+    self.advance(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 143, in advance
+    output = self._evaluation_step(**kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\loops\epoch\evaluation_epoch_loop.py", line 240, in _evaluation_step
+    output = self.trainer._call_strategy_hook(hook_name, *kwargs.values())
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1706, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 370, in validation_step
+    return self.model.validation_step(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 82, in validation_step
+    loss, preds, targets = self.step(batch)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 59, in step
+    logits = self.forward(x)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 50, in forward
+    return self.net(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\components\simple_dense_net.py", line 38, in forward
+    return self.model(x)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x3072 and 784x256)
+[2022-09-24 16:43:19,597][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:45:13,733][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:45:13,778][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:45:13,786][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:45:14,330][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:45:14,338][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:45:14,362][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:45:14,362][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:45:14,370][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:45:14,378][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:45:14,378][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:45:14,386][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:45:14,386][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:45:14,386][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:45:14,459][__main__][INFO] - Starting training!
+[2022-09-24 16:45:29,010][__main__][INFO] - Starting testing!
+[2022-09-24 16:45:29,010][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-24 16:45:31,816][__main__][INFO] - Best ckpt path: None
+[2022-09-24 16:45:31,831][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:45:31,831][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-45-11\0
+[2022-09-24 16:47:29,572][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:47:29,588][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:47:29,596][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:47:30,031][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:47:30,047][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:47:30,063][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:47:30,071][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:47:30,079][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:47:30,079][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:47:30,087][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:47:30,087][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:47:30,087][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:47:30,095][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:47:30,167][__main__][INFO] - Starting training!
+[2022-09-24 16:47:39,165][__main__][INFO] - Starting testing!
+[2022-09-24 16:47:39,165][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-24 16:47:42,915][__main__][INFO] - Best ckpt path: None
+[2022-09-24 16:47:42,922][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:47:42,922][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-47-26\0
+[2022-09-24 16:49:31,444][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:49:31,469][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:49:31,929][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:49:31,937][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:49:31,961][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:49:31,961][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:49:31,969][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:49:31,969][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:49:31,977][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:49:31,977][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:49:31,985][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:49:32,113][__main__][INFO] - Starting training!
+[2022-09-24 16:52:42,867][__main__][INFO] - Starting testing!
+[2022-09-24 16:52:45,058][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-49-29\0\checkpoints\epoch_001.ckpt
+[2022-09-24 16:52:45,058][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:52:45,058][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-49-29\0
+[2022-09-24 16:52:45,066][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-24 16:52:45,299][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:52:45,307][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:52:45,720][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:52:45,728][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:52:45,736][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:52:45,744][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:52:45,744][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:52:45,744][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:52:45,752][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:52:45,752][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:52:45,752][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 16:52:45,760][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:52:45,800][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 16:52:45,830][__main__][INFO] - Starting training!
+[2022-09-24 16:52:49,666][__main__][INFO] - Starting testing!
+[2022-09-24 16:52:49,666][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-24 16:52:49,903][__main__][INFO] - Best ckpt path: None
+[2022-09-24 16:52:49,903][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:52:49,903][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-49-29\1
+[2022-09-24 16:52:49,911][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-24 16:53:02,116][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:53:02,140][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:53:02,140][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:53:02,566][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:53:02,574][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:53:02,598][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:53:02,600][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:53:02,608][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:53:02,608][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:53:02,608][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:53:02,616][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:53:02,616][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:53:02,616][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:53:02,698][__main__][INFO] - Starting training!
+[2022-09-24 16:55:56,464][__main__][INFO] - Starting testing!
+[2022-09-24 16:56:00,160][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\0\checkpoints\epoch_008.ckpt
+[2022-09-24 16:56:00,163][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:56:00,167][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\0
+[2022-09-24 16:56:00,168][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.5144000053405762>
+[2022-09-24 16:56:00,402][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:56:00,408][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:56:00,410][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:56:00,633][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:56:00,638][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:56:00,646][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:56:00,647][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:56:00,652][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:56:00,656][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:56:00,657][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:56:00,659][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:56:00,661][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:56:00,662][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:56:00,696][__main__][INFO] - Starting training!
+[2022-09-24 16:58:03,092][__main__][INFO] - Starting testing!
+[2022-09-24 16:58:06,339][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\1\checkpoints\epoch_008.ckpt
+[2022-09-24 16:58:06,343][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 16:58:06,346][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\1
+[2022-09-24 16:58:06,347][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.49480000138282776>
+[2022-09-24 16:58:06,571][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 16:58:06,589][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 16:58:06,591][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 16:58:06,806][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 16:58:06,810][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 16:58:06,820][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 16:58:06,821][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 16:58:06,825][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 16:58:06,828][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 16:58:06,830][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 16:58:06,831][__main__][INFO] - Instantiating loggers...
+[2022-09-24 16:58:06,832][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 16:58:06,834][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 16:58:06,873][__main__][INFO] - Starting training!
+[2022-09-24 17:02:10,665][__main__][INFO] - Starting testing!
+[2022-09-24 17:02:15,002][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\2\checkpoints\epoch_008.ckpt
+[2022-09-24 17:02:15,005][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:02:15,008][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\2
+[2022-09-24 17:02:15,010][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.4927999973297119>
+[2022-09-24 17:02:15,234][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:02:15,250][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:02:15,252][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 17:02:15,477][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 17:02:15,481][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 17:02:15,489][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:02:15,491][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:02:15,495][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:02:15,498][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:02:15,500][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:02:15,502][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:02:15,504][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 17:02:15,505][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:02:15,541][__main__][INFO] - Starting training!
+[2022-09-24 17:05:59,538][__main__][INFO] - Starting testing!
+[2022-09-24 17:06:03,807][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\3\checkpoints\epoch_008.ckpt
+[2022-09-24 17:06:03,810][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:06:03,813][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\3
+[2022-09-24 17:06:03,815][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.51419997215271>
+[2022-09-24 17:06:04,048][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:06:04,057][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:06:04,059][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 17:06:04,285][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 17:06:04,291][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 17:06:04,300][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:06:04,301][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:06:04,306][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:06:04,308][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:06:04,310][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:06:04,312][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:06:04,313][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 17:06:04,314][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:06:04,350][__main__][INFO] - Starting training!
+[2022-09-24 17:08:26,608][__main__][INFO] - Starting testing!
+[2022-09-24 17:08:26,841][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\4\checkpoints\epoch_001.ckpt
+[2022-09-24 17:08:26,845][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:08:26,848][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\4
+[2022-09-24 17:08:26,849][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.45739999413490295>
+[2022-09-24 17:08:27,149][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:08:27,156][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:08:27,158][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 17:08:27,375][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 17:08:27,380][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 17:08:27,389][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:08:27,391][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:08:27,396][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:08:27,398][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:08:27,400][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:08:27,402][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:08:27,403][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 17:08:27,405][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:08:27,452][__main__][INFO] - Starting training!
+[2022-09-24 17:08:27,844][__main__][INFO] - Starting testing!
+[2022-09-24 17:08:27,846][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-24 17:08:28,035][__main__][INFO] - Best ckpt path: None
+[2022-09-24 17:08:28,040][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:08:28,043][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_16-52-59\5
+[2022-09-24 17:15:49,858][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:15:49,874][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:15:49,882][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-24 17:15:50,325][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 17:15:50,341][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 17:15:50,365][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:15:50,365][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:15:50,373][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:15:50,373][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:15:50,381][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:15:50,381][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:15:50,381][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-24 17:15:50,389][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:15:50,463][__main__][INFO] - Starting training!
+[2022-09-24 17:16:02,295][__main__][INFO] - Starting testing!
+[2022-09-24 17:16:02,295][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-24 17:16:02,512][__main__][INFO] - Best ckpt path: None
+[2022-09-24 17:16:02,516][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:16:02,516][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_17-15-47\0
+[2022-09-24 17:22:41,124][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:22:41,140][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:22:41,634][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 17:22:41,642][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 17:22:41,674][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:22:41,682][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:22:41,690][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:22:41,698][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:22:41,698][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:22:41,698][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:22:41,706][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 17:22:41,714][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:22:41,770][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 17:22:41,804][__main__][INFO] - Starting training!
+[2022-09-24 17:24:57,981][__main__][INFO] - Starting testing!
+[2022-09-24 17:25:02,843][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_17-22-40\0\checkpoints\epoch_003.ckpt
+[2022-09-24 17:25:02,843][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:25:02,851][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_17-22-40\0
+[2022-09-24 17:25:02,851][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-24 17:30:00,974][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:30:00,998][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:30:01,490][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 17:30:01,498][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 17:30:01,522][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:30:01,522][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:30:01,530][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:30:01,538][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:30:01,538][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:30:01,538][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:30:01,546][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 17:30:01,546][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:30:01,612][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 17:30:01,650][__main__][INFO] - Starting training!
+[2022-09-24 17:31:35,461][__main__][INFO] - Starting testing!
+[2022-09-24 17:31:40,250][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_17-30-00\0\checkpoints\epoch_002.ckpt
+[2022-09-24 17:31:40,250][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:31:40,258][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_17-30-00\0
+[2022-09-24 17:31:40,258][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-24 17:58:42,879][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:58:42,895][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:58:43,452][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 17:58:43,468][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 17:58:43,501][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 17:58:43,504][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 17:58:43,507][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 17:58:43,515][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 17:58:43,515][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 17:58:43,515][__main__][INFO] - Instantiating loggers...
+[2022-09-24 17:58:43,523][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 17:58:43,531][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 17:58:43,603][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 17:58:43,632][__main__][INFO] - Starting training!
+[2022-09-24 17:59:40,520][__main__][INFO] - Starting testing!
+[2022-09-24 17:59:42,734][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_17-58-42\0\checkpoints\epoch_001.ckpt
+[2022-09-24 17:59:42,738][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 17:59:42,741][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_17-58-42\0
+[2022-09-24 17:59:42,742][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-24 17:59:48,556][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 17:59:48,569][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 17:59:48,864][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 17:59:48,870][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 17:59:48,883][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'model_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 72, in train
+    model: LightningModule = hydra.utils.instantiate(cfg.model)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'src.models.cifar10_module.CIFAR10LitModule':
+TypeError("__init__() got an unexpected keyword argument 'model_name'")
+full_key: model
+[2022-09-24 17:59:48,899][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 18:05:38,772][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 18:05:38,782][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 18:05:39,077][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 18:05:39,083][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 18:05:39,398][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 18:05:43,993][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'model_name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 72, in train
+    model: LightningModule = hydra.utils.instantiate(cfg.model)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'src.models.cifar10_module.CIFAR10LitModule':
+TypeError("__init__() got an unexpected keyword argument 'model_name'")
+full_key: model
+[2022-09-24 18:05:44,012][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 18:06:35,130][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 18:06:35,143][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 18:06:35,424][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 18:06:35,430][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 18:06:35,715][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 18:06:35,836][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'pretrained'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 72, in train
+    model: LightningModule = hydra.utils.instantiate(cfg.model)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'src.models.cifar10_module.CIFAR10LitModule':
+TypeError("__init__() got an unexpected keyword argument 'pretrained'")
+full_key: model
+[2022-09-24 18:06:35,860][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 18:09:51,284][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 18:09:51,297][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 18:09:51,577][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 18:09:51,584][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 18:09:51,870][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 18:09:52,004][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 18:09:52,007][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 18:09:52,014][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 18:09:52,017][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 18:09:52,019][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 18:09:52,022][__main__][INFO] - Instantiating loggers...
+[2022-09-24 18:09:52,023][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 18:09:52,088][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 18:09:52,142][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 18:09:52,165][__main__][INFO] - Starting training!
+[2022-09-24 18:14:11,500][__main__][INFO] - Starting testing!
+[2022-09-24 18:14:11,501][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-24 18:14:12,844][__main__][INFO] - Best ckpt path: None
+[2022-09-24 18:14:12,848][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 18:14:12,851][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_18-09-50\0
+[2022-09-24 18:14:12,853][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-24 18:14:20,105][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 18:14:20,116][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 18:14:20,390][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 18:14:20,397][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 18:14:20,686][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 18:14:20,798][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 18:14:20,809][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 18:14:20,814][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 18:14:20,817][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 18:14:20,818][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 18:14:20,821][__main__][INFO] - Instantiating loggers...
+[2022-09-24 18:14:20,823][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 18:14:20,876][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 18:14:20,931][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 18:14:20,952][__main__][INFO] - Starting training!
+[2022-09-24 18:31:52,685][__main__][INFO] - Starting testing!
+[2022-09-24 18:32:53,837][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_18-14-19\0\checkpoints\epoch_001.ckpt
+[2022-09-24 18:32:53,850][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 18:32:53,861][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-24_18-14-19\0
+[2022-09-24 18:32:53,864][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-24 22:16:53,408][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 22:16:53,419][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 22:16:53,704][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 22:16:53,711][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 22:16:54,144][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 22:16:54,330][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 22:16:54,332][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 22:16:54,337][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 22:16:54,340][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 22:16:54,342][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 22:16:54,344][__main__][INFO] - Instantiating loggers...
+[2022-09-24 22:16:54,345][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 22:16:54,349][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 22:16:54,434][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 22:16:54,468][__main__][INFO] - Starting training!
+[2022-09-24 22:16:57,822][__main__][INFO] - Starting testing!
+[2022-09-24 22:16:57,824][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-24 22:16:58,600][__main__][INFO] - Best ckpt path: None
+[2022-09-24 22:16:58,603][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 22:16:58,606][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-24_22-16-53
+[2022-09-24 22:16:58,608][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-24 22:19:20,216][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 22:19:20,226][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 22:19:20,489][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 22:19:20,497][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 22:19:20,802][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 22:19:20,927][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 22:19:20,929][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 22:19:20,933][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 22:19:20,936][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 22:19:20,937][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 22:19:20,939][__main__][INFO] - Instantiating loggers...
+[2022-09-24 22:19:20,941][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 22:19:20,944][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 22:19:21,030][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 22:19:21,058][__main__][INFO] - Starting training!
+[2022-09-24 22:34:16,629][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-24 22:34:16,640][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-24 22:34:16,882][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-24 22:34:16,889][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-24 22:34:17,161][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-24 22:34:17,299][__main__][INFO] - Instantiating callbacks...
+[2022-09-24 22:34:17,301][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-24 22:34:17,306][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-24 22:34:17,309][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-24 22:34:17,311][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-24 22:34:17,313][__main__][INFO] - Instantiating loggers...
+[2022-09-24 22:34:17,315][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-24 22:34:17,319][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-24 22:34:17,414][__main__][INFO] - Logging hyperparameters!
+[2022-09-24 22:34:17,436][__main__][INFO] - Starting training!
+[2022-09-24 22:42:05,057][__main__][INFO] - Starting testing!
+[2022-09-24 22:42:14,058][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-24_22-34-16\checkpoints\epoch_006.ckpt
+[2022-09-24 22:42:14,075][src.utils.utils][INFO] - Closing loggers...
+[2022-09-24 22:42:14,078][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-24_22-34-16
+[2022-09-24 22:42:14,080][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
+[2022-09-25 09:42:10,867][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 09:42:10,896][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 09:42:10,904][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-25 09:42:11,347][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 09:42:11,363][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 09:42:11,371][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\utils.py", line 630, in _locate
+    obj = import_module(part0)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'SGD'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 134, in _resolve_target
+    target = _locate(target)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\utils.py", line 632, in _locate
+    raise ImportError(
+ImportError: Error loading 'SGD':
+ModuleNotFoundError("No module named 'SGD'")
+Are you sure that module 'SGD' is installed?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 72, in train
+    model: LightningModule = hydra.utils.instantiate(cfg.model)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 334, in instantiate_node
+    value = instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 325, in instantiate_node
+    _target_ = _resolve_target(node.get(_Keys.TARGET), full_key)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 139, in _resolve_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error locating target 'SGD', see chained exception above.
+full_key: model.optimizer
+[2022-09-25 09:42:11,387][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 09:43:01,225][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 09:43:01,271][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 09:43:01,287][src.utils.rich_utils][WARNING] - Field 'logger' not found in config. Skipping 'logger' config printing...
+[2022-09-25 09:43:01,752][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 09:43:01,768][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 09:43:02,489][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 09:43:02,778][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 09:43:02,788][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 09:43:02,796][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 09:43:02,796][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 09:43:02,804][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 09:43:02,804][__main__][INFO] - Instantiating loggers...
+[2022-09-25 09:43:02,812][src.utils.utils][WARNING] - Logger config is empty.
+[2022-09-25 09:43:02,812][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 09:43:02,973][__main__][INFO] - Starting training!
+[2022-09-25 09:43:39,862][__main__][INFO] - Starting testing!
+[2022-09-25 09:43:39,870][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-25 09:43:40,459][__main__][INFO] - Best ckpt path: None
+[2022-09-25 09:43:40,464][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 09:43:40,464][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_09-42-59\0
+[2022-09-25 09:45:40,790][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 09:45:40,811][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 09:45:41,314][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 09:45:41,330][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 09:45:41,822][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 09:45:42,057][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 09:45:42,062][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 09:45:42,070][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 09:45:42,070][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 09:45:42,078][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 09:45:42,086][__main__][INFO] - Instantiating loggers...
+[2022-09-25 09:45:42,086][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 09:45:42,094][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 09:45:42,206][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 09:45:42,252][__main__][INFO] - Starting training!
+[2022-09-25 09:54:53,721][__main__][INFO] - Starting testing!
+[2022-09-25 09:55:01,521][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_09-45-38\0\checkpoints\epoch_007.ckpt
+[2022-09-25 09:55:01,775][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 09:55:01,783][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_09-45-38\0
+[2022-09-25 09:55:01,784][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7878000140190125>
+[2022-09-25 09:55:02,027][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 09:55:02,039][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 09:55:02,326][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 09:55:02,331][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 09:55:02,457][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 09:55:02,589][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 09:55:02,594][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 09:55:02,599][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 09:55:02,602][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 09:55:02,604][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 09:55:02,608][__main__][INFO] - Instantiating loggers...
+[2022-09-25 09:55:02,609][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 09:55:02,613][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 09:55:02,668][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 09:55:02,682][__main__][INFO] - Starting training!
+[2022-09-25 09:56:17,688][__main__][INFO] - Starting testing!
+[2022-09-25 09:56:18,041][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_09-45-38\1\checkpoints\epoch_000.ckpt
+[2022-09-25 09:56:18,044][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 09:56:18,047][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_09-45-38\1
+[2022-09-25 09:56:18,049][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.2727999985218048>
+[2022-09-25 09:56:18,275][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 09:56:18,284][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 10:22:03,534][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 10:22:03,554][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 10:22:04,084][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 10:22:04,092][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 10:22:04,744][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 10:22:04,928][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\models\cifar10_module.py", line 35, in __init__
+    self.log_hyperparams()
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\torch\nn\modules\module.py", line 1207, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'CIFAR10LitModule' object has no attribute 'log_hyperparams'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 72, in train
+    model: LightningModule = hydra.utils.instantiate(cfg.model)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'src.models.cifar10_module.CIFAR10LitModule':
+AttributeError("'CIFAR10LitModule' object has no attribute 'log_hyperparams'")
+full_key: model
+[2022-09-25 10:22:04,950][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:00:54,852][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:00:54,872][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:00:55,456][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:00:55,472][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:00:56,041][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:00:56,245][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:00:56,261][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:00:56,269][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:00:56,269][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:00:56,277][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:00:56,277][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:00:56,277][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:00:56,293][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:00:56,429][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:00:56,476][__main__][INFO] - Starting training!
+[2022-09-25 11:01:49,074][__main__][INFO] - Starting testing!
+[2022-09-25 11:01:49,082][__main__][WARNING] - Best ckpt not found! Using current weights for testing...
+[2022-09-25 11:01:49,293][__main__][INFO] - Best ckpt path: None
+[2022-09-25 11:01:49,297][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:01:49,297][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-00-52\0
+[2022-09-25 11:06:59,065][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:06:59,094][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:06:59,723][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:06:59,739][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:07:00,296][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:07:00,496][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:07:00,504][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:07:00,512][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:07:00,512][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:07:00,520][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:07:00,520][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:07:00,520][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:07:00,528][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:07:00,648][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:07:00,685][__main__][INFO] - Starting training!
+[2022-09-25 11:12:57,079][__main__][INFO] - Starting testing!
+[2022-09-25 11:13:04,239][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\0\checkpoints\epoch_009.ckpt
+[2022-09-25 11:13:04,245][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:13:04,248][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\0
+[2022-09-25 11:13:04,250][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7139999866485596>
+[2022-09-25 11:13:04,489][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:13:04,494][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:13:04,756][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:13:04,760][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:13:04,862][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:13:04,985][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:13:04,987][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:13:04,992][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:13:04,995][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:13:04,997][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:13:04,999][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:13:05,000][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:13:05,006][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:13:05,055][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:13:05,070][__main__][INFO] - Starting training!
+[2022-09-25 11:23:53,354][__main__][INFO] - Starting testing!
+[2022-09-25 11:24:03,888][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\1\checkpoints\epoch_009.ckpt
+[2022-09-25 11:24:03,891][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:24:03,895][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\1
+[2022-09-25 11:24:03,896][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.4867999851703644>
+[2022-09-25 11:24:04,132][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:24:04,140][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:24:04,390][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:24:04,395][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:24:04,499][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:24:04,621][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:24:04,623][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:24:04,629][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:24:04,632][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:24:04,635][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:24:04,636][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:24:04,638][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:24:04,642][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:24:04,700][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:24:04,721][__main__][INFO] - Starting training!
+[2022-09-25 11:28:24,780][__main__][INFO] - Starting testing!
+[2022-09-25 11:28:32,141][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\2\checkpoints\epoch_008.ckpt
+[2022-09-25 11:28:32,143][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:28:32,147][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\2
+[2022-09-25 11:28:32,149][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.6899999976158142>
+[2022-09-25 11:28:32,402][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:28:32,408][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:28:32,656][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:28:32,660][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:28:32,770][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:28:32,886][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:28:32,887][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:28:32,892][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:28:32,895][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:28:32,897][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:28:32,899][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:28:32,901][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:28:32,905][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:28:32,958][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:28:32,980][__main__][INFO] - Starting training!
+[2022-09-25 11:32:42,452][__main__][INFO] - Starting testing!
+[2022-09-25 11:32:49,782][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\3\checkpoints\epoch_004.ckpt
+[2022-09-25 11:32:49,798][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:32:49,801][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\3
+[2022-09-25 11:32:49,802][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.10480000078678131>
+[2022-09-25 11:32:50,042][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:32:50,049][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:32:50,301][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:32:50,305][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:32:50,413][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:32:50,529][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:32:50,538][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:32:50,543][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:32:50,546][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:32:50,549][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:32:50,551][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:32:50,552][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:32:50,557][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:32:50,605][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:32:50,622][__main__][INFO] - Starting training!
+[2022-09-25 11:37:21,778][__main__][INFO] - Starting testing!
+[2022-09-25 11:37:29,177][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\4\checkpoints\epoch_009.ckpt
+[2022-09-25 11:37:29,185][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:37:29,188][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\4
+[2022-09-25 11:37:29,190][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.6812000274658203>
+[2022-09-25 11:37:29,425][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:37:29,432][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:37:29,690][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:37:29,695][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:37:29,796][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:37:29,911][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:37:29,924][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:37:29,930][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:37:29,934][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:37:29,936][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:37:29,938][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:37:29,940][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:37:29,944][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:37:30,001][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:37:30,023][__main__][INFO] - Starting training!
+[2022-09-25 11:41:30,279][__main__][INFO] - Starting testing!
+[2022-09-25 11:41:37,586][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\5\checkpoints\epoch_009.ckpt
+[2022-09-25 11:41:37,605][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:41:37,607][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\5
+[2022-09-25 11:41:37,609][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.6105999946594238>
+[2022-09-25 11:41:37,850][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:41:37,861][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:41:38,112][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:41:38,117][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:41:38,227][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:41:38,331][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:41:38,343][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:41:38,347][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:41:38,351][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:41:38,352][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:41:38,354][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:41:38,355][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:41:38,359][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:41:38,402][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:41:38,426][__main__][INFO] - Starting training!
+[2022-09-25 11:45:38,759][__main__][INFO] - Starting testing!
+[2022-09-25 11:45:45,973][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\6\checkpoints\epoch_009.ckpt
+[2022-09-25 11:45:45,983][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:45:45,985][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\6
+[2022-09-25 11:45:45,987][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7378000020980835>
+[2022-09-25 11:45:46,210][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:45:46,224][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:45:46,480][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:45:46,485][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:45:46,583][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:45:46,701][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:45:46,714][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:45:46,719][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:45:46,722][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:45:46,725][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:45:46,727][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:45:46,729][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:45:46,733][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:45:46,776][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:45:46,791][__main__][INFO] - Starting training!
+[2022-09-25 11:56:38,088][__main__][INFO] - Starting testing!
+[2022-09-25 11:56:48,571][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\7\checkpoints\epoch_009.ckpt
+[2022-09-25 11:56:48,578][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 11:56:48,581][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\7
+[2022-09-25 11:56:48,582][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.5562000274658203>
+[2022-09-25 11:56:48,816][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 11:56:48,823][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 11:56:49,070][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 11:56:49,074][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 11:56:49,182][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 11:56:49,293][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 11:56:49,300][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 11:56:49,305][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 11:56:49,308][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 11:56:49,310][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 11:56:49,313][__main__][INFO] - Instantiating loggers...
+[2022-09-25 11:56:49,314][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 11:56:49,318][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 11:56:49,377][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 11:56:49,399][__main__][INFO] - Starting training!
+[2022-09-25 12:00:59,377][__main__][INFO] - Starting testing!
+[2022-09-25 12:01:06,644][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\8\checkpoints\epoch_009.ckpt
+[2022-09-25 12:01:06,655][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:01:06,658][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\8
+[2022-09-25 12:01:06,660][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.6665999889373779>
+[2022-09-25 12:01:06,906][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:01:06,913][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:01:07,162][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:01:07,167][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:01:07,265][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:01:07,389][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:01:07,393][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:01:07,398][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:01:07,400][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:01:07,402][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:01:07,404][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:01:07,406][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:01:07,409][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:01:07,454][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:01:07,472][__main__][INFO] - Starting training!
+[2022-09-25 12:05:27,048][__main__][INFO] - Starting testing!
+[2022-09-25 12:05:34,472][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\9\checkpoints\epoch_009.ckpt
+[2022-09-25 12:05:34,486][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:05:34,489][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\9
+[2022-09-25 12:05:34,490][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.6794000267982483>
+[2022-09-25 12:05:34,751][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:05:34,756][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:05:35,015][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:05:35,020][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:05:35,120][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:05:35,237][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:05:35,247][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:05:35,252][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:05:35,255][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:05:35,256][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:05:35,259][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:05:35,260][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:05:35,264][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:05:35,318][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:05:35,339][__main__][INFO] - Starting training!
+[2022-09-25 12:11:22,118][__main__][INFO] - Starting testing!
+[2022-09-25 12:11:30,121][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\10\checkpoints\epoch_009.ckpt
+[2022-09-25 12:11:30,134][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:11:30,136][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\10
+[2022-09-25 12:11:30,138][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7591999769210815>
+[2022-09-25 12:11:30,374][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:11:30,379][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:11:30,633][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:11:30,638][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:11:30,748][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:11:30,858][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:11:30,860][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:11:30,866][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:11:30,869][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:11:30,871][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:11:30,873][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:11:30,874][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:11:30,879][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:11:30,931][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:11:30,945][__main__][INFO] - Starting training!
+[2022-09-25 12:17:19,199][__main__][INFO] - Starting testing!
+[2022-09-25 12:17:27,290][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\11\checkpoints\epoch_009.ckpt
+[2022-09-25 12:17:27,303][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:17:27,306][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\11
+[2022-09-25 12:17:27,307][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7523999810218811>
+[2022-09-25 12:17:27,551][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:17:27,557][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:17:27,807][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:17:27,813][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:17:27,928][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:17:28,053][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:17:28,055][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:17:28,060][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:17:28,062][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:17:28,065][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:17:28,067][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:17:28,069][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:17:28,074][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:17:28,128][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:17:28,149][__main__][INFO] - Starting training!
+[2022-09-25 12:23:15,756][__main__][INFO] - Starting testing!
+[2022-09-25 12:23:23,896][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\12\checkpoints\epoch_009.ckpt
+[2022-09-25 12:23:23,900][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:23:23,902][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\12
+[2022-09-25 12:23:23,903][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7459999918937683>
+[2022-09-25 12:23:24,256][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:23:24,262][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:23:24,507][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:23:24,511][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:23:24,612][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:23:24,732][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:23:24,744][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:23:24,749][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:23:24,752][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:23:24,754][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:23:24,756][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:23:24,757][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:23:24,762][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:23:24,803][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:23:24,821][__main__][INFO] - Starting training!
+[2022-09-25 12:29:12,160][__main__][INFO] - Starting testing!
+[2022-09-25 12:29:20,333][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\13\checkpoints\epoch_009.ckpt
+[2022-09-25 12:29:20,339][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:29:20,343][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\13
+[2022-09-25 12:29:20,344][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.553600013256073>
+[2022-09-25 12:29:20,610][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:29:20,616][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:29:20,870][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:29:20,876][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:29:20,987][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:29:21,104][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:29:21,106][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:29:21,111][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:29:21,114][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:29:21,116][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:29:21,118][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:29:21,120][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:29:21,123][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:29:21,174][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:29:21,194][__main__][INFO] - Starting training!
+[2022-09-25 12:32:40,293][__main__][INFO] - Starting testing!
+[2022-09-25 12:32:47,408][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\14\checkpoints\epoch_009.ckpt
+[2022-09-25 12:32:47,411][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:32:47,414][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\14
+[2022-09-25 12:32:47,416][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7396000027656555>
+[2022-09-25 12:32:47,661][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:32:47,667][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:32:47,920][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:32:47,925][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:32:48,048][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:32:48,150][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:32:48,165][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:32:48,170][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:32:48,173][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:32:48,176][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:32:48,178][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:32:48,179][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:32:48,184][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:32:48,230][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:32:48,250][__main__][INFO] - Starting training!
+[2022-09-25 12:38:34,970][__main__][INFO] - Starting testing!
+[2022-09-25 12:38:43,039][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\15\checkpoints\epoch_009.ckpt
+[2022-09-25 12:38:43,054][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:38:43,058][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\15
+[2022-09-25 12:38:43,059][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7202000021934509>
+[2022-09-25 12:38:43,300][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:38:43,306][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:38:43,558][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:38:43,563][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:38:43,673][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:38:43,787][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:38:43,791][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:38:43,795][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:38:43,798][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:38:43,801][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:38:43,804][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:38:43,805][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:38:43,810][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:38:43,860][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:38:43,880][__main__][INFO] - Starting training!
+[2022-09-25 12:44:31,361][__main__][INFO] - Starting testing!
+[2022-09-25 12:44:39,497][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\16\checkpoints\epoch_007.ckpt
+[2022-09-25 12:44:39,515][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:44:39,519][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\16
+[2022-09-25 12:44:39,520][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7788000106811523>
+[2022-09-25 12:44:39,755][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:44:39,765][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:44:40,020][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:44:40,024][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:44:40,130][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:44:40,251][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:44:40,257][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:44:40,263][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:44:40,266][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:44:40,269][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:44:40,271][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:44:40,273][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:44:40,276][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:44:40,325][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:44:40,348][__main__][INFO] - Starting training!
+[2022-09-25 12:50:41,003][__main__][INFO] - Starting testing!
+[2022-09-25 12:50:49,237][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\17\checkpoints\epoch_006.ckpt
+[2022-09-25 12:50:49,240][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:50:49,243][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\17
+[2022-09-25 12:50:49,245][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.10679999738931656>
+[2022-09-25 12:50:49,604][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:50:49,610][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:50:49,862][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:50:49,866][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:50:49,983][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:50:50,103][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:50:50,111][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:50:50,115][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:50:50,118][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:50:50,121][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:50:50,123][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:50:50,124][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:50:50,128][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:50:50,170][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:50:50,185][__main__][INFO] - Starting training!
+[2022-09-25 12:54:08,774][__main__][INFO] - Starting testing!
+[2022-09-25 12:54:15,808][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\18\checkpoints\epoch_008.ckpt
+[2022-09-25 12:54:15,821][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 12:54:15,824][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\18
+[2022-09-25 12:54:15,826][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7419999837875366>
+[2022-09-25 12:54:16,058][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-25 12:54:16,065][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-25 12:54:16,317][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-25 12:54:16,323][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-25 12:54:16,423][timm.models.helpers][INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+[2022-09-25 12:54:16,542][__main__][INFO] - Instantiating callbacks...
+[2022-09-25 12:54:16,550][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-25 12:54:16,556][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-25 12:54:16,559][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-25 12:54:16,561][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-25 12:54:16,563][__main__][INFO] - Instantiating loggers...
+[2022-09-25 12:54:16,565][src.utils.utils][INFO] - Instantiating logger <pytorch_lightning.loggers.tensorboard.TensorBoardLogger>
+[2022-09-25 12:54:16,570][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-25 12:54:16,616][__main__][INFO] - Logging hyperparameters!
+[2022-09-25 12:54:16,636][__main__][INFO] - Starting training!
+[2022-09-25 13:00:05,953][__main__][INFO] - Starting testing!
+[2022-09-25 13:00:14,087][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\19\checkpoints\epoch_009.ckpt
+[2022-09-25 13:00:14,096][src.utils.utils][INFO] - Closing loggers...
+[2022-09-25 13:00:14,098][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\multiruns\2022-09-25_11-06-56\19
+[2022-09-25 13:00:14,100][src.utils.utils][INFO] - Retrieved metric value! <val/acc_best=0.7710000276565552>

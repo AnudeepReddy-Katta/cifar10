@@ -7,9 +7,12 @@ optimizer:
   weight_decay: 0.0
 
 net:
-  _target_: src.models.components.simple_dense_net.SimpleDenseNet
-  channels: 3
-  width: 32
-  height: 32
-  hidden_size: 64
-  output_size: 10
+  _target_: timm.create_model
+  model_name: resnet18
+  pretrained: True
+  num_classes: 10
+  # _target_: src.models.components.simple_dense_net.SimpleDenseNet
+  # lin1_size: 256
+  # lin2_size: 256
+  # lin3_size: 256
+  # output_size: 10
