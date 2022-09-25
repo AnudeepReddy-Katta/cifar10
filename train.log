@@ -1,0 +1,46 @@
+[2022-09-23 19:29:09,028][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-23 19:29:09,045][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-23 19:29:09,502][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-23 19:29:09,510][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-23 19:29:09,527][src.utils.utils][ERROR] - 
+Traceback (most recent call last):
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 92, in _call_target
+    return _target_(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'lin1_size'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\utils\utils.py", line 39, in wrap
+    metric_dict, object_dict = task_func(cfg=cfg)
+  File "C:\Users\katta\Desktop\MLOPS\Week3\cifar10\src\train.py", line 72, in train
+    model: LightningModule = hydra.utils.instantiate(cfg.model)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 334, in instantiate_node
+    value = instantiate_node(
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 339, in instantiate_node
+    return _call_target(_target_, partial, args, kwargs, full_key)
+  File "C:\Users\katta\anaconda3\envs\mlopsw2\lib\site-packages\hydra\_internal\instantiate\_instantiate2.py", line 97, in _call_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error in call to target 'src.models.components.simple_dense_net.SimpleDenseNet':
+TypeError("__init__() got an unexpected keyword argument 'lin1_size'")
+full_key: model.net
+[2022-09-23 19:29:09,535][src.utils.utils][INFO] - Closing loggers...
+[2022-09-23 19:31:00,329][src.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2022-09-23 19:31:00,349][src.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2022-09-23 19:31:00,876][__main__][INFO] - Instantiating datamodule <src.datamodules.cifar10_datamodule.CIFAR10DataModule>
+[2022-09-23 19:31:00,892][__main__][INFO] - Instantiating model <src.models.cifar10_module.CIFAR10LitModule>
+[2022-09-23 19:31:00,927][__main__][INFO] - Instantiating callbacks...
+[2022-09-23 19:31:00,935][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2022-09-23 19:31:00,943][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2022-09-23 19:31:00,943][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2022-09-23 19:31:00,951][src.utils.utils][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2022-09-23 19:31:00,951][__main__][INFO] - Instantiating loggers...
+[2022-09-23 19:31:00,951][__main__][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2022-09-23 19:31:01,023][__main__][INFO] - Starting training!
+[2022-09-23 19:34:44,280][__main__][INFO] - Starting testing!
+[2022-09-23 19:34:48,939][__main__][INFO] - Best ckpt path: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-23_19-31-00\checkpoints\epoch_009.ckpt
+[2022-09-23 19:34:48,939][src.utils.utils][INFO] - Closing loggers...
+[2022-09-23 19:34:48,947][src.utils.utils][INFO] - Output dir: C:\Users\katta\Desktop\MLOPS\Week3\cifar10\logs\train\runs\2022-09-23_19-31-00
+[2022-09-23 19:34:48,947][src.utils.utils][INFO] - Metric name is None! Skipping metric value retrieval...
