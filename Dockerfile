@@ -9,7 +9,7 @@ COPY requirements.txt ./
 RUN pip3 install --no-cache-dir -U pip && \
     pip3 install --no-cache-dir -r requirements.txt
 
-COPY ./logs/train/runs/2022-10-15_22-44-32/model.script.pt ./model.script.pt
+COPY model.script.pt ./
 
 COPY configs/ configs/
 COPY src/ src/
