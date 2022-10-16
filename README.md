@@ -19,7 +19,7 @@ Gradio app to classify images
 
 ## How to run
 
-docker run -it -d -p 7000:7000  anukatta/week3:v1  (size - 1.21GB)
+docker run -it -d -p 8080:8080  anukatta/week3:v1  (size - 1.21GB)
 
 ## Docker File
 
@@ -39,7 +39,7 @@ COPY src/ src/
 COPY pyproject.toml ./
 
 
-EXPOSE 7860
+EXPOSE 8080
 ENTRYPOINT ["python3", "src/demo_scripted.py"]
 
 # Sample Run
