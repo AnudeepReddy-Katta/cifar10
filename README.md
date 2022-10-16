@@ -25,10 +25,8 @@ docker run -it -d -p 7000:7000  anukatta/week3:v1  (size - 1.21GB)
 
 FROM python:3.7-slim-buster
 
-# Set working directory
 WORKDIR /workspace/project
 
-# Install requirements
 COPY requirements.txt ./
 
 RUN pip3 install --no-cache-dir -U pip && \
