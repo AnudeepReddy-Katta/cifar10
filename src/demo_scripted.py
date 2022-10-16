@@ -48,7 +48,7 @@ def demo(cfg: DictConfig) -> Tuple[dict, dict]:
 
     demo = gr.Interface(fn=predict, inputs=gr.Image(shape=(32,32)), outputs=gr.Label(num_top_classes=10))
 
-    demo.launch(server_name="0.0.0.0",server_port=7000)
+    demo.launch(server_name="0.0.0.0",server_port=8080)
 
 @hydra.main(
     version_base="1.2", config_path=root / "configs", config_name="demo_scripted.yaml"
