@@ -41,3 +41,6 @@ COPY pyproject.toml ./
 
 EXPOSE 7860
 ENTRYPOINT ["python3", "src/demo_scripted.py"]
+
+# Sample Run
+![image](https://user-images.githubusercontent.com/65823721/196034603-c4931fdd-5767-4855-8c08-e84c30cf0e0a.png)
